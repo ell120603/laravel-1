@@ -9,6 +9,9 @@
 <body>
     <h1>IMC</h1>
     <h2><? $operationName ?></h2>
-    <p><?='Seu imc é de'.  '=' . $resultado?></p>
+    <p><?='Seu imc é de '.  ' = ' .  $resultado?></p>
+    <h2>instruçoes: coloque sua altura primeiro em cm na url e em seguida coloque seu peso em kg e saiba se 
+    esta no peso correto.
+    </h2>
 </body>
 </html>

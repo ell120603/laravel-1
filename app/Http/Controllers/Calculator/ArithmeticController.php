@@ -14,6 +14,11 @@ class ArithmeticController extends Controller{
             $resultado =  $v2 * $v2/$v1;
             break;
         }
+        if($resultado < 25){
+          echo  "peso normal";
+       }else{
+          echo "SobrePeso";
+       }
         return view('calculator.result',
         [
         'operationName'=> $operationName,   
